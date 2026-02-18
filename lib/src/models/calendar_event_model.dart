@@ -10,7 +10,8 @@ class CalendarEventModel {
     this.imageUrl,
     this.pdfUrl,
     this.page,
-    this.allDay
+    this.allDay,
+    this.type
   });
 
   String id;
@@ -22,4 +23,6 @@ class CalendarEventModel {
   String? pdfUrl;
   String? page;
   bool? allDay;
+  String? type;
 }
+ 
